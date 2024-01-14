@@ -11,8 +11,21 @@
 
 .cell {
   text-align: left;
-  border-right: 1px solid #eee;
   padding: 0 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  
+  p {
+    margin: 0;
+  }
+
+}
+
+
+.loan_info{
+  text-align: right;
 }
 
 .cell sub {
@@ -20,4 +33,15 @@
   font-size: 0.8rem;
   color: #999;
   margin-bottom: 5px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.cell .email {
+  color: var(--Denim-45, #246AC1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; 
 }
